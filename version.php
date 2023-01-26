@@ -2,5 +2,5 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$plugin->component = 'block_myscore.php';
-$plugin->version = 202212149989898;
+$plugin->component = 'block_myscore';
+$plugin->version = 2022121498;
