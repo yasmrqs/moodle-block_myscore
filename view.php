@@ -7,7 +7,7 @@ global $USER;
 
 echo "<pre>";
 
-//a variável possui a média final de todas as atividades entregues pelos alunos
+//a variável  possui a média final de todas as atividades entregues pelos alunos
 $resultados = $DB->get_records_sql("SELECT id, userid, rawgrade, AVG(rawgrade) AS MediaFinal FROM 'mdl_grade_grades' GROUP BY userid;");
 $valores = array_column($resultados, 'mediafinal');
 

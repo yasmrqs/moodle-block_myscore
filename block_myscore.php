@@ -4,7 +4,7 @@ class block_myscore extends block_base {
 	public function init () {
 		$this->title = get_string('Desempenho');
 	}
-	
+	// oi
 	public function get_content () {	
 		$this->content = new stdClass;
 		$this->content->text = 
