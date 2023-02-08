@@ -11,7 +11,7 @@ class block_myscore extends block_base {
 		"Acesse a área de desempenho dos alunos";
 		
 		$url = new moodle_url('/blocks/desempenho/view.php');
-		$this->content->text .= html_writer::link($url, ' Clique aqui!');
+		$this->content->text .= html_writer::link($url, 'Clique aqui!');
 
 		return $this->content;
 		
